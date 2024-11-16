@@ -51,13 +51,13 @@ if(score > highscore){
   message.textContent = 'Input Out of Range'
 }
 else if(guessNo > secretNumber){
-  message.textContent = 'Too High 📈'
+  message.textContent = 'Too High '
   score--;
   scoreEl.textContent = score;
   if(score == 0) loser();
   
 }else if(guessNo < secretNumber){
-  message.textContent = 'Too Low 📉'
+  message.textContent = 'Too Low '
   score--;
   scoreEl.textContent = score;
 
